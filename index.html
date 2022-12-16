@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IDN Resto</title>
+
+  <!-- bootsrtrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- animate -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg nav-bg-blur fixed-top navbar-dark">
+    <div class="container">
+      <a class="navbar-brand text-uppercase text-bold" href="#">idn <span class="text-info">resto</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">Panorama</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="panel-content d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div data-aos="fade-right" data-aos-duration="3000" class="col-md-6 p-3 d-flex align-items-center">
+            <div class="content-text">
+              <p class="text-white text-uppercase text-title">idn <span class="text-info">cafe and resto</span></p>
+              <p class="text-uppercase text-white mt-2">original taste from nusantara</p>
+              <p class="text-white">Rasakan cita rasa sesungguhnya tradisi nenek moyang asli Nusantara, yang masih
+                terjaga dan selalu diwariskan dari masa ke masa</p>
+              <div class="btn-arrow-bottom mt-4">
+                <a href="#" class="btn btn-info rounded text-white p-3">Explore Now</a>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-left" data-aos-duration="3000" class="col-md-6 d-flex justify-content-center">
+            <img src="assets/img/image-1.png" alt="image-1" class="img-fluid img-content">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="second mt-4 d-flex align-items-center" id="second">
+    <div class="container d-flex align-items-center">
+      <div class="row">
+        <div class="col-md-6" data-aos="zoom-in-right" data-aos-duration="3000">
+          <img src="assets/img/image-2.png" class="img-fluid" alt="image-2">
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+          <p class="text-info text-title">Tahukah Kamu?</p>
+          <p>
+            Bandrek adalah minuman tradisional khas Sunda yang dikonsumsi untuk meningkatkan kehangatan tubuh. Minuman
+            ini biasanya dihidangkan pada cuaca dingin, seperti di kala hujan ataupun malam hari. Bahan dasar bandrék
+            yang paling penting adalah jahe dan gula merah, tetapi pada daerah tertentu biasanya menambahkan
+            rempah-rempah tersendiri untuk memperkuat efek hangat yang diberikan bandrék, seperti serai, merica, pandan,
+            telur ayam kampung, dan sebagainya. Susu juga dapat ditambahkan tergantung dari selera penyajian. Banyak
+            orang Indonesia percaya bahwa bandrék dapat menyembuhkan berbagai penyakit ringan seperti sakit tenggorokan,
+            batuk, dan lain sebagainya. Di Bandung, biasanya penjual menambahkan sejumput kerukan kelapa untuk menambah
+            cita rasa dari Bandrek tersebut. Bandrek biasa dikonsumsi bersama kacang rebus, ubi jalar rebus, dan juga
+            gorengan.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="panel-content">
+      <div class="container p-4">
+        <p class="text-title text-white text-center mb-3">
+          Daftar Menu IDN Cafe and Resto
+        </p>
+        <ul class="nav nav-pills d-flex justify-content-center mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-uppercase active" id="pills-makanan-tab" data-bs-toggle="pill" data-bs-target="#pills-makanan"
+              type="button" role="tab" aria-controls="pills-makanan" aria-selected="true">makanan</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-uppercase" id="pills-minuman-tab" data-bs-toggle="pill" data-bs-target="#pills-minuman"
+              type="button" role="tab" aria-controls="pills-minuman" aria-selected="false">minuman</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-uppercase" id="pills-makanan-ringan-tab" data-bs-toggle="pill" data-bs-target="#pills-makanan-ringan"
+              type="button" role="tab" aria-controls="pills-makanan-ringan" aria-selected="false">makanan ringan</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-makanan" role="tabpanel" aria-labelledby="pills-makanan-tab"
+            tabindex="0">
+            <div class="card-menu mt-3">
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://images.unsplash.com/photo-1529563021893-cc83c992d75d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=8" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Sate Surabaya</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 45.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://www.dapurkintamani.com/wp-content/uploads/2021/10/empal-gentong.webp" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Empal Gentong</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 25.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://www.masakapahariini.com/wp-content/uploads/2019/01/gado-gado-MAHI.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Gado Gado</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 15.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://www.resepistimewa.com/wp-content/uploads/cara-membuat-ayam-bakar-kecap.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Ayam Bakar</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 31.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://img-global.cpcdn.com/recipes/76b628af362c389a/400x400cq70/photo.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Nasi Kuning</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 12.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://cdn.idntimes.com/content-images/community/2021/12/cover-1d7e007c50ecd923926e64b9e704dee3-c453b8138366518c07109457318d41b8_600x400.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Sate Padang</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 32.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://s.kaskus.id/r480x480/images/fjb/2017/03/15/pelatihan_usaha_bubur_ayam_cianjur__modal_minim_untung_besar_9649381_1489568270.JPG" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Bubur Ayam Cianjur</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 25.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://cdn0-production-images-kly.akamaized.net/aDZbOOV2WeJCgCiBFgFQwoXJN64=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2029093/original/066661300_1521949447-Bakso.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Mie Ayam dan Bakso</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 15.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2018/11/Blog_Resep-Nasi-Tutug-Oncom-yang-Gurih-dan-Bikin-Nagih.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Nasi Tutug Oncom</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 15.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-minuman" role="tabpanel" aria-labelledby="pills-minuman-tab"
+            tabindex="0">
+            <div class="card-menu mt-3">
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://www.masakapahariini.com/wp-content/uploads/2022/06/lemon-tea-selasih.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Lemon Tea</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 23.789/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://www.masakapahariini.com/wp-content/uploads/2018/12/shutterstock_338815997.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Wedang Jahe</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 20.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://www.eatthis.com/wp-content/uploads/sites/4/2019/05/iced-tea.jpg?quality=82&strip=1" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Es Tea</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 10.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://www.resepistimewa.com/wp-content/uploads/cara-membuat-ayam-bakar-kecap.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Ayam Bakar</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 31.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://img-global.cpcdn.com/recipes/76b628af362c389a/400x400cq70/photo.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Nasi Kuning</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 12.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://cdn.idntimes.com/content-images/community/2021/12/cover-1d7e007c50ecd923926e64b9e704dee3-c453b8138366518c07109457318d41b8_600x400.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Sate Padang</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 32.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://s.kaskus.id/r480x480/images/fjb/2017/03/15/pelatihan_usaha_bubur_ayam_cianjur__modal_minim_untung_besar_9649381_1489568270.JPG" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Bubur Ayam Cianjur</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 25.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://cdn0-production-images-kly.akamaized.net/aDZbOOV2WeJCgCiBFgFQwoXJN64=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2029093/original/066661300_1521949447-Bakso.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Mie Ayam dan Bakso</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 15.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2018/11/Blog_Resep-Nasi-Tutug-Oncom-yang-Gurih-dan-Bikin-Nagih.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Nasi Tutug Oncom</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 15.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-makanan-ringan" role="tabpanel" aria-labelledby="pills-makanan-ringan-tab"
+            tabindex="0">
+            <div class="card-menu mt-3">
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://images.unsplash.com/photo-1529563021893-cc83c992d75d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=8" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Sate Surabaya</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 45.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://www.dapurkintamani.com/wp-content/uploads/2021/10/empal-gentong.webp" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Empal Gentong</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 25.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://www.masakapahariini.com/wp-content/uploads/2019/01/gado-gado-MAHI.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Gado Gado</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 15.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://www.resepistimewa.com/wp-content/uploads/cara-membuat-ayam-bakar-kecap.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Ayam Bakar</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 31.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://img-global.cpcdn.com/recipes/76b628af362c389a/400x400cq70/photo.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Nasi Kuning</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 12.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://cdn.idntimes.com/content-images/community/2021/12/cover-1d7e007c50ecd923926e64b9e704dee3-c453b8138366518c07109457318d41b8_600x400.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Sate Padang</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 32.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://s.kaskus.id/r480x480/images/fjb/2017/03/15/pelatihan_usaha_bubur_ayam_cianjur__modal_minim_untung_besar_9649381_1489568270.JPG" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Bubur Ayam Cianjur</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 25.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://cdn0-production-images-kly.akamaized.net/aDZbOOV2WeJCgCiBFgFQwoXJN64=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2029093/original/066661300_1521949447-Bakso.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Mie Ayam dan Bakso</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 15.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <div class="card p-2">
+                    <img src="https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2018/11/Blog_Resep-Nasi-Tutug-Oncom-yang-Gurih-dan-Bikin-Nagih.jpg" style="height: 200px;" class="card-img-top img-fluid" alt="sate-surabaya">
+                    <div class="card-body">
+                      <p class="text-bold">Nasi Tutug Oncom</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="text-success">IDR. 15.000/porsi</p>
+                      <div class="rate d-flex">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half text-warning"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panorama p-4" id="panorama">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-md-8 p-4">
+          <div class="card">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://blog.cove.id/content/images/2022/02/cafe-di-setiabudi.webp" class="d-block w-100" style="height: 400px;">
+                  <div class="carousel-caption card text-dark d-none d-md-block">
+                    <h5>Indoor Cafe</h5>
+                    <p>Suasana cafe dan resto dalam ruangan.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://awsimages.detik.net.id/community/media/visual/2022/05/24/demandailing-cafe_11.jpeg?w=700&q=90" class="d-block w-100" style="height: 400px;">
+                  <div class="carousel-caption card text-dark d-none d-md-block">
+                    <h5>Outdoor Cafe</h5>
+                    <p>Suasana cafe dan resto Luar ruangan.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://bravaradio.com/wp-content/uploads/2017/01/altitude.jpg" class="d-block w-100" style="height: 400px;">
+                  <div class="carousel-caption card text-dark d-none d-md-block">
+                    <h5>Skyview Cafe</h5>
+                    <p>Suasana cafe dan resto diatas gedung dengan pemandangan langit.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-4" data-aos="fade-left" data-aos-duration="3000">
+          <p class="text-title text-uppercase">idn <span class="text-info">Panorama</span></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aperiam esse nemo aut minus molestiae eaque dignissimos voluptate nostrum dolorum quibusdam, ea earum sequi itaque eveniet laudantium illo officiis excepturi consequuntur dolores eius? Ducimus maiores facere eaque fugiat. Officiis iusto debitis inventore nulla cumque laboriosam sequi harum pariatur laborum non.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="booking" id="booking"></section>
+
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
